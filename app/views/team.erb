@@ -1,3 +1,32 @@
+<h1>Team displayed here</h1>
+<div class="team"
+  <h3>Name: <%= @team.name %></h3><br>
+  <h4>Motto: <%= @team.motto %></h4><br>
+</div><br>
 
+<h2>Display first hero</h2>
+<% @heroes.each do |hero| %>
+  <div class="hero">
+    <p> Name: <%= hero.name %></p><br>
+    <p> Power: <%= hero.power %></p><br>
+    <p> Biography: <%= hero.bio %></p><br>
+  </div><br>
+<% end %>
 
+<h2>Display second hero</h2>
+<% @heroes.each do |hero| %>
+  <div class="hero">
+    <p> Name: <%= hero.name %></p><br>
+    <p> Power: <%= hero.power %></p><br>
+    <p> Biography: <%= hero.bio %></p><br>
+  </div><br>
+<% end %>
 
+<h2>Display third hero</h2>
+<% @heroes.each do |hero| %>
+  <div class="hero">
+    <p> Name: <%= hero.name %></p><br>
+    <p> Power: <%= hero.power %></p><br>
+    <p> Biography: <%= hero.bio %></p><br>
+  </div><br>
+<% end %>
